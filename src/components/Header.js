@@ -13,7 +13,7 @@ function Header() {
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                   <li className="nav-item">
-                  <NavLink className="nav-link custom-nav-link" to="/Home" style={({ isActive }) => ({
+                  <NavLink className="nav-link custom-nav-link" to="/" style={({ isActive }) => ({
                       color: isActive ? "#ffffff" : "white",  
                       fontWeight: isActive ? "bold" : "normal",
                       textDecoration: isActive ? "underline" : "none",
@@ -57,7 +57,7 @@ function Header() {
                   </NavLink>
                   </li>
                   <li className="nav-item">
-                  <NavLink className="nav-link " to="/LegalMentions" style={({ isActive }) => ({
+                  <NavLink className="nav-link custom-nav-link " to="/LegalNotices" style={({ isActive }) => ({
                       color: isActive ? "#ffffff" : "white",  
                       fontWeight: isActive ? "bold" : "normal",
                       textDecoration: isActive ? "underline" : "none",

@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom";
 function Footer() {
     return (
         <footer className="bg-dark text-light">
-        <div className="container footer">
+        <div className="container">
           <div className="row text-center text-md-start">
             <div className="col-12 col-md-4">
               <h4>John Doe</h4>
@@ -55,7 +55,7 @@ function Footer() {
                 </li>
 
                 <li>
-                  <NavLink className="nav-link custom-nav-link" to="/LegalMentions">
+                  <NavLink className="nav-link custom-nav-link" to="/LegalNotices">
                     Mentions Légales
                   </NavLink>
                 </li>
