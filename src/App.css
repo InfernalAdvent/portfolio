@@ -71,7 +71,8 @@ h1, h2, h3, h4 {
   left: 0;
   width: 100%;
   height: 100%;
-  background: url('/public/images/hero-bg.jpg') center/cover no-repeat;
+  object-fit: cover;
+  object-position: center;
   z-index: 0;
 }
 
@@ -91,14 +92,24 @@ h1, h2, h3, h4 {
   z-index: 2; 
 }
 
-@media (max-width: 1024px) { /* Tablettes */
-  .hero-section {
-    height: 80vh; /* Réduire la hauteur */
-  }
+.skills-container {
+  padding: 40px 25px 40px 25px;
+  margin: 40px auto;
+  width: 80%;
+  max-width: 1200px;
+  text-align: center;
+  border: 2px solid rgba(255, 255, 255, 0.2); /* Bordure semi-transparente */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Ombre légère */
+  background: rgba(255, 255, 255, 0.05); /* Légère transparence */
 }
 
-@media (max-width: 768px) { /* Mobiles */
-  .hero-section {
-    height: 60vh; /* Hauteur plus réduite */
-  }
+.JohnDoe-image {
+  max-width: 100%; 
+  height: auto;   
+  display: block; 
+  margin: 0 auto; 
+}
+
+.padding-home {
+  padding-top: 25px;
 }
