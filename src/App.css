@@ -7,3 +7,40 @@
   text-align: center;
 }
 
+.custom-nav-link {
+  color: white;
+  text-decoration: none;
+  transition: text-decoration 0.2s ease-in-out;
+}
+
+.custom-nav-link:hover {
+  text-decoration: underline !important;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 3px;
+}
+
+.socialNetworks i {
+  color: grey;
+  font-size: 2rem;
+  padding-right: 10px;
+  padding-top: 5px
+}
+
+.socialNetworks i:hover{
+  color: white;
+  text-decoration: none;
+  transition: text-decoration 0.2s ease-in-out;
+}
+
+.container {
+  padding: 40px
+}
+
+.info{
+  margin: 15px 0 25px 0;
+  line-height: 8px;
+}
+
+.text-style {
+  text-decoration: none;
+}
