@@ -135,9 +135,7 @@ const Home = () => {
                         </li>
                         <li className="list-group-item list-group-item-dark bg-dark text-light">
                           <i className="bi bi-box me-2"></i>
-                          <a href={`${user.html_url}?tab=repositories`} target="_blank" rel="noopener noreferrer" className="text-info">
-                            Voir les repos
-                          </a>
+                          {user.public_repos}
                         </li>
                         <li className="list-group-item list-group-item-dark bg-dark text-light">
                           <i className="bi bi-people me-2"></i>
