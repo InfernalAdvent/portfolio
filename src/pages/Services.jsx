@@ -1,27 +1,6 @@
-import { useState, useEffect } from "react";
+import ResponsiveHr from "../components/ResponsiveHr";
 
 const Services = () => {
-    /* Pour gérer la largeur de hr */
-    const [hrWidth, setHrWidth] = useState(window.innerWidth < 576 ? "25%" : "100%");
-
-    /* Maj de la largeur de hr lorsqu'on redimensionne l'écran */
-    useEffect(() => {
-        const updateWidth = () => {
-            setHrWidth(window.innerWidth < 576 ? "25%" : "100%");
-        };
-
-        window.addEventListener("resize", updateWidth); // Ajout d'un event listener
-        return () => window.removeEventListener("resize", updateWidth); // Clean event listener
-    }, []);
-
-    /* Style de hr */
-    const hrStyle = {
-        width: hrWidth,
-        maxWidth: "100%",
-        display: "block",
-        margin: "auto"
-    };
-
     return (
         <div>
             <section className="services-title">
@@ -29,7 +8,7 @@ const Services = () => {
                 <div className="services-container-title my-5 mx-auto">
                     <h1 className="mb-2"><strong>Mon offre de service</strong></h1>
                     <p className="mb-4">Voici les prestations sur lesquelles je peux intervenir</p>
-                    <hr style={hrStyle} className="border-primary border-5 opacity-100 my-3" />
+                    <ResponsiveHr className="border-primary border-5 opacity-100 my-3" />
                 </div>
             </section>
 
