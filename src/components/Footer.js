@@ -4,25 +4,25 @@ import { NavLink } from "react-router-dom";
 function Footer() {
     return (
         <footer className="bg-dark text-light">
-        <div className="container">
+        <div className="container p-5">
           <div className="row text-center text-md-start">
             <div className="col-12 col-md-4">
               <h4>John Doe</h4>
-              <div className="info">
-                <p>40 rue Laure Diebold</p>
-                <p>69009 Lyon, France</p>
-                <p>10 20 30 40 50</p>
-                <p>john.doe@gmail.com</p>
+              <div className="mt-3 mb-3">
+                <p className="mb-2">40 rue Laure Diebold</p>
+                <p className="mb-2">69009 Lyon, France</p>
+                <p className="mb-2">10 20 30 40 50</p>
+                <p className="mb-2">john.doe@gmail.com</p>
               </div>
               <div className="socialNetworks">
                 <span>
-                    <a href="https://github.com/github-john-doe" rel="noopener noreferrer nofollow"><i className="bi bi-github"></i></a>
+                    <a href="https://github.com/github-john-doe" rel="noopener noreferrer nofollow"><i className="bi bi-github pe-2 pt-1"></i></a>
                 </span>
                 <span>
-                    <a href="https://x.com/johndoe?lang=fr" rel="noopener noreferrer nofollow"><i className="bi bi-twitter-x"></i></a>
+                    <a href="https://x.com/johndoe?lang=fr" rel="noopener noreferrer nofollow"><i className="bi bi-twitter-x pe-2 pt-1"></i></a>
                 </span>
                 <span>
-                    <a href="https://www.linkedin.com/company/wearewire/?trk=similar-pages_result-card_full-click&originalSubdomain=fr" rel="noopener noreferrer nofollow"><i className="bi bi-linkedin"></i></a>
+                    <a href="https://www.linkedin.com/company/wearewire/?trk=similar-pages_result-card_full-click&originalSubdomain=fr" rel="noopener noreferrer nofollow"><i className="bi bi-linkedin pe-2 pt-1"></i></a>
                 </span>
               </div>
             </div>

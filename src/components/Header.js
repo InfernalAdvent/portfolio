@@ -6,12 +6,12 @@ function Header() {
       <div className="Header">
         <nav class="navbar navbar-expand-lg bg-body text-uppercase" data-bs-theme="dark">
             <div class="container-fluid">
-                <span class="navbar-brand">John Doe</span>
+                <span class="navbar-brand ps-4">John Doe</span>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
             <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
+                <ul class="navbar-nav ms-auto pe-4">
                   <li className="nav-item">
                   <NavLink className="nav-link custom-nav-link" to="/" style={({ isActive }) => ({
                       color: isActive ? "#ffffff" : "white",  
