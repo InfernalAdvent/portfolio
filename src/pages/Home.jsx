@@ -29,8 +29,8 @@ const Home = () => {
         <div className="hero-overlay"></div>
 
         <div className="hero-content">
-          <h1 className="fs-1 fs-md-2 fs-sm-3 mb-4">Bonjour, je suis John Doe</h1>
-          <h2 className="fs-2 fs-md-3 fs-sm-4 mb-4">Développeur web Full Stack</h2>
+          <h1 className="fs-1 fs-md-2 fs-sm-3 mb-4"><strong>Bonjour, je suis John Doe</strong></h1>
+          <h2 className="fs-2 fs-md-3 fs-sm-4 mb-4"><strong>Développeur web Full Stack</strong></h2>
           <button
             className="btn btn-danger"
             data-bs-toggle="modal"
@@ -47,7 +47,7 @@ const Home = () => {
           <div className="row">
             {/* À propos */}
             <div className="col-12 col-md-6">
-              <h3 className="text-start">À propos</h3>
+              <h3 className="text-start"><strong>À propos</strong></h3>
               <hr className="border-primary border-4 opacity-100 my-3" />
               <img
                 src="/images/john-doe-about.jpg"
@@ -72,7 +72,7 @@ const Home = () => {
 
             {/* Mes Compétences */}
             <div className="col-12 col-md-6">
-              <h3 className="text-start">Mes compétences</h3>
+              <h3 className="text-start"><strong>Mes compétences</strong></h3>
               <hr className="border-primary border-4 opacity-100 my-3" />
               <div className="padding-home">
                 {[
@@ -106,7 +106,7 @@ const Home = () => {
         <div className="modal-dialog modal-lg">
           <div className="modal-content bg-dark">
             <div className="modal-header">
-              <h4 className="modal-title text-light" id="aboutModalLabel">Mon profil GitHub</h4>
+              <h4 className="modal-title text-light" id="aboutModalLabel"><strong>Mon profil Github</strong></h4>
               <button type="button" className="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
 
@@ -114,10 +114,10 @@ const Home = () => {
               {user ? (
                 <div className="container">
                   <div className="row align-items-center">
-                    <div className="col-6">
+                    <div className="col-12 col-md-6">
                       <img src={user.avatar_url} alt={user.name} className="img-fluid" width="300" />
                     </div>
-                    <div className="col-6">
+                    <div className="col-12 col-md-6">
                       <ul className="list-group list-group-flush bg-dark text-start">
                         <li className="list-group-item list-group-item-dark bg-dark text-light">
                           <i className="bi bi-person me-2"></i>
