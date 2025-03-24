@@ -39,6 +39,7 @@ h1, h2, h3, h4 {
   transition: text-decoration 0.2s ease-in-out;
 }
 
+
 /*        Home.js         */
 
 /* Section Hero */
@@ -99,6 +100,7 @@ h1, h2, h3, h4 {
   display: block;
 }
 
+
 /*        Services.js         */
 
 .banner {
@@ -119,8 +121,16 @@ h1, h2, h3, h4 {
   text-align: center;
 }
 
+/* Hover des cards de services */
 .services-container .col-12:hover .border {
-  background-color: #efefef; /* Change la couleur de fond */
+  background-color: #efefef; 
   transition: all 0.3s ease-in-out;
-  box-shadow: 8px 8px 16px #efefef ; /* Ombre légère */
+  box-shadow: 8px 8px 16px #efefef ; 
+  }
+
+
+/*        LegalMentions.js         */
+
+  .Legal-mentions-container {
+    max-width: 1200px;
   }

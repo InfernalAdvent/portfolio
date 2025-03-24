@@ -14,7 +14,7 @@ const Services = () => {
 
             <section className="services">
                 <div className="services-container my-5 mx-auto">
-                    <div className="row align-items-stretch px-2 gy-3">
+                    <div className="row align-items-stretch px-3 gy-3">
                         <div className="col-12 col-md-4">
                             <div className="border rounded border-1 border-opacity-50 border-secondary px-4 pt-5 h-100">
                                 <div className="pb-5">
