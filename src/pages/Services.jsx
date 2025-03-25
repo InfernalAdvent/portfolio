@@ -5,7 +5,7 @@ const Services = () => {
         <div>
             <section className="services-title">
                 <img src="/images/banner.jpg" alt="bannière" className="banner" />
-                <div className="services-container-title my-5 mx-auto">
+                <div className="container-title my-5 mx-auto">
                     <h1 className="mb-2"><strong>Mon offre de service</strong></h1>
                     <p className="mb-4">Voici les prestations sur lesquelles je peux intervenir</p>
                     <ResponsiveHr className="border-primary border-5 opacity-100 my-3" />
@@ -13,7 +13,7 @@ const Services = () => {
             </section>
 
             <section className="services">
-                <div className="services-container my-5 mx-auto">
+                <div className="container my-5 py-4 mx-auto">
                     <div className="row align-items-stretch px-3 gy-3">
                         <div className="col-12 col-md-4">
                             <div className="border rounded border-1 border-opacity-50 border-secondary px-4 pt-5 h-100">

@@ -10,10 +10,10 @@ import LegalNotices from "./pages/LegalNotices";
 
 function App() {
   return (
-      <div className="App">
+      <div className="App d-flex flex-column min-vh-100">
         <Header />
 
-        <main className="main-container">
+        <main className="main-container flex-grow-1">
           <Routes>
             <Route path="/" element={<Home/>}></Route>
             <Route path="/Services" element={<Services/>}></Route>

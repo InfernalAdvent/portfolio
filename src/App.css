@@ -110,27 +110,35 @@ h1, h2, h3, h4 {
   object-position: center;
 }
 
-.services-container-title {
+.container-title {
   max-width: 500px;
   text-align: center;
 }
 
-.services-container {
+.container {
   width: 100%;
   max-width: 1200px;
   text-align: center;
 }
 
 /* Hover des cards de services */
-.services-container .col-12:hover .border {
+.container .col-12:hover .border,
+.portfolio-cards .card:hover {
   background-color: #efefef; 
   transition: all 0.3s ease-in-out;
   box-shadow: 8px 8px 16px #efefef ; 
   }
 
 
-/*        LegalMentions.js         */
+/*        LegalNotions.js         */
 
-  .Legal-mentions-container {
+  .Legal-notices-container {
     max-width: 1200px;
+  }
+
+
+  /*        Portfolio.js         */
+
+  .border-top {
+    background-color: #efefef;
   }

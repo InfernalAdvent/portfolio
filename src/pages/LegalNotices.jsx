@@ -3,16 +3,16 @@ import ResponsiveHr from "../components/ResponsiveHr";
 const LegalNotices = () => {
     return(
         <div>
-            <section className="Legal-mentions-title">
-                <div className="services-container-title my-5 mx-auto">
+            <section className="Legal-notices-title">
+                <div className="container-title my-5 mx-auto">
                     <h1 className="mb-2"><strong>Mentions Légales</strong></h1>
                     <p className="mb-4">Voici les prestations sur lesquelles je peux intervenir</p>
                     <ResponsiveHr className="border-primary border-5 opacity-100 my-3" />
                 </div>
             </section>
 
-            <section className="Legal-mentions">
-                <div className="Legal-mentions-container text-start px-3 mb-5 mx-auto">
+            <section className="Legal-notices">
+                <div className="container text-start my-5 py-4 mx-auto">
                     <div class="accordion" id="accordionExample">
                         <div class="accordion-item">
                             <h2 class="accordion-header">
