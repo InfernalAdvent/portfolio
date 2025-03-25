@@ -1,9 +1,9 @@
 import { useState, useEffect } from "react";
 
-const ResponsiveHr = ({ smallWidth = "25%", largeWidth = "100%", className = "" }) => {
-    const [hrWidth, setHrWidth] = useState(window.innerWidth < 576 ? smallWidth : largeWidth);
+const ResponsiveHr = ({ smallWidth = "25%", largeWidth = "70%", className = "responsive-hr" }) => {      /* Définition des props et de l'état */
+    const [hrWidth, setHrWidth] = useState(window.innerWidth < 576 ? smallWidth : largeWidth);  /* Si l'écran fait moins de 576px on applique smallWidth, sinon largeWidth */
 
-    useEffect(() => {
+    useEffect(() => { /* On utilise useEffect pour gérer le redimmensionnement */
         const updateWidth = () => {
             setHrWidth(window.innerWidth < 576 ? smallWidth : largeWidth);
         };
@@ -14,7 +14,7 @@ const ResponsiveHr = ({ smallWidth = "25%", largeWidth = "100%", className = "" 
 
     return (
         <hr 
-            style={{ width: hrWidth, maxWidth: "100%", display: "block", margin: "auto" }} 
+            style={{ width: hrWidth, maxWidth: "70%", display: "block", margin: "auto", }} 
             className={`border-primary border-5 opacity-100 my-3 ${className}`}
         />
     );

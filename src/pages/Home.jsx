@@ -1,25 +1,25 @@
 import { useState, useEffect } from "react";
 
 const Home = () => {
-  const [user, setUser] = useState(null);
+  const [user, setUser] = useState(null); /* On déclare l'état useState */
 
   const getUser = async () => {
     try {
-      const res = await fetch("https://api.github.com/users/github-john-doe");
-      const json = await res.json();
-      setUser(json);
+      const res = await fetch("https://api.github.com/users/github-john-doe"); /* Requête vers l'API Gihub pour récupérer les infos */
+      const json = await res.json(); 
+      setUser(json); /* Met à jour l'état user avec les données récupérées */
     } catch (err) {
-      console.error("Erreur lors de la récupération des données GitHub", err);
+      console.error("Erreur lors de la récupération des données GitHub", err); /* Au cas où la requête échoue */
     }
   };
 
   useEffect(() => {
-    getUser();
+    getUser(); /* Exécuté qu'une seule fois au chargement de la page */
   }, []);
 
   return (
     <div>
-      {/* Section Hero */}
+      {/* Intro */}
       <section className="hero-section">
         <img
           src="/images/hero-bg.jpg"
@@ -40,15 +40,13 @@ const Home = () => {
           </button>
         </div>
       </section>
-
-      {/* Section Compétences */}
+      {/* Compétences */}
       <section className="skills-section">
-        <div className="skills-container my-5 mx-auto py-5 px-4">
+        <div className="skills-container my-5 mx-auto pt-4 pb-4 px-4">
           <div className="row">
-            {/* À propos */}
             <div className="col-12 col-md-6">
               <h3 className="text-start"><strong>À propos</strong></h3>
-              <hr className="border-primary border-4 opacity-100 my-3" />
+              <hr className="border-primary border-3 opacity-100 my-3" />
               <img
                 src="/images/john-doe-about.jpg"
                 alt="John Doe, développeur web"
@@ -70,10 +68,9 @@ const Home = () => {
               </div>
             </div>
 
-            {/* Mes Compétences */}
             <div className="col-12 col-md-6">
               <h3 className="text-start"><strong>Mes compétences</strong></h3>
-              <hr className="border-primary border-4 opacity-100 my-3" />
+              <hr className="border-primary border-3 opacity-100 my-3" />
               <div className="padding-home">
                 {[
                   { skill: "HTML5", value: 90, color: "danger" },
