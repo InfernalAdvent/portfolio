@@ -33,31 +33,31 @@ function Footer() {
               <h4>Liens utiles</h4>
               <ul className="list-unstyled">
                 <li>
-                  <NavLink className="nav-link custom-nav-link" to="/Home">
+                  <NavLink className="nav-link nav-link-footer" to="/Home">
                     Accueil
                   </NavLink>
                 </li>
 
                 <li>
-                  <NavLink className="nav-link custom-nav-link" to="/Services">
+                  <NavLink className="nav-link nav-link-footer" to="/Services">
                     Services
                   </NavLink>
                 </li>
 
                 <li>
-                  <NavLink className="nav-link custom-nav-link" to="/Portfolio">
+                  <NavLink className="nav-link nav-link-footer" to="/Portfolio">
                     Portfolio
                   </NavLink>
                 </li>
 
                 <li>
-                  <NavLink className="nav-link custom-nav-link" to="/Contact">
+                  <NavLink className="nav-link nav-link-footer" to="/Contact">
                     Me contacter
                   </NavLink>
                 </li>
 
                 <li>
-                  <NavLink className="nav-link custom-nav-link" to="/LegalNotices">
+                  <NavLink className="nav-link nav-link-footer" to="/LegalNotices">
                     Mentions Légales
                   </NavLink>
                 </li>
@@ -68,37 +68,37 @@ function Footer() {
               <h4>Mes dernières réalisations</h4>
               <ul className="list-unstyled">
                 <li>
-                  <NavLink className="nav-link custom-nav-link" to="#">
+                  <NavLink className="nav-link  nav-link-footer" to="#">
                     Fresh Food
                   </NavLink>
                 </li>
 
                 <li>
-                  <NavLink className="nav-link custom-nav-link" to="#">
+                  <NavLink className="nav-link  nav-link-footer" to="#">
                     Restaurant Akira
                   </NavLink>
                 </li>
 
                 <li>
-                  <NavLink className="nav-link custom-nav-link" to="#">
+                  <NavLink className="nav-link  nav-link-footer" to="#">
                     Espace bien-être
                   </NavLink>
                 </li>
 
                 <li>
-                  <NavLink className="nav-link custom-nav-link" to="#">
+                  <NavLink className="nav-link  nav-link-footer" to="#">
                     SEO
                   </NavLink>
                 </li>
 
                 <li>
-                  <NavLink className="nav-link custom-nav-link" to="#">
+                  <NavLink className="nav-link  nav-link-footer" to="#">
                     Création d'une API
                   </NavLink>
                 </li>
 
                 <li>
-                  <NavLink className="nav-link custom-nav-link" to="#">
+                  <NavLink className="nav-link  nav-link-footer" to="#">
                     Maquette d'un site
                   </NavLink>
                 </li>

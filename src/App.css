@@ -14,20 +14,25 @@ h1, h2, h3, h4 {
   font-weight: 600 !important;
 }
 
-/*        Footer.js         */
-.custom-nav-link {
+/*Style des Nav-link */
+.nav-link-header, .nav-link-footer{
   color: white;
   text-decoration: none;
   transition: text-decoration 0.2s ease-in-out;
 }
 
-.custom-nav-link:hover {
+/* Hover des liens Header & Footer */
+.nav-link-header:hover {
   text-decoration: underline !important;
   text-decoration-thickness: 2px;
   text-underline-offset: 3px;
 }
 
-/* Icônes des réseaux sociaux */
+.nav-link-footer:hover {
+  font-weight: 600;
+}
+
+/* Hover des icônes des réseaux sociaux */
 .socialNetworks i {
   color: grey;
   font-size: 2rem;

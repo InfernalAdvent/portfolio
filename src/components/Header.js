@@ -13,7 +13,7 @@ function Header() {
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto pe-4">
                   <li className="nav-item">
-                  <NavLink className="nav-link custom-nav-link" to="/" style={({ isActive }) => ({
+                  <NavLink className="nav-link  nav-link-header" to="/" style={({ isActive }) => ({
                       color: isActive ? "#ffffff" : "white",  
                       fontWeight: isActive ? "bold" : "normal",
                       textDecoration: isActive ? "underline" : "none",
@@ -24,7 +24,7 @@ function Header() {
                   </NavLink>
                   </li>
                   <li className="nav-item">
-                  <NavLink className="nav-link custom-nav-link" to="/Services" style={({ isActive }) => ({
+                  <NavLink className="nav-link  nav-link-header" to="/Services" style={({ isActive }) => ({
                       color: isActive ? "#ffffff" : "white",  
                       fontWeight: isActive ? "bold" : "normal",
                       textDecoration: isActive ? "underline" : "none",
@@ -35,7 +35,7 @@ function Header() {
                   </NavLink>
                   </li>
                   <li className="nav-item">
-                  <NavLink className="nav-link custom-nav-link" to="/Portfolio" style={({ isActive }) => ({
+                  <NavLink className="nav-link  nav-link-header" to="/Portfolio" style={({ isActive }) => ({
                       color: isActive ? "#ffffff" : "white",  
                       fontWeight: isActive ? "bold" : "normal",
                       textDecoration: isActive ? "underline" : "none",
@@ -46,7 +46,7 @@ function Header() {
                   </NavLink>
                   </li>
                   <li className="nav-item">
-                  <NavLink className="nav-link custom-nav-link" to="/Contact" style={({ isActive }) => ({
+                  <NavLink className="nav-link  nav-link-header" to="/Contact" style={({ isActive }) => ({
                       color: isActive ? "#ffffff" : "white",  
                       fontWeight: isActive ? "bold" : "normal",
                       textDecoration: isActive ? "underline" : "none",
@@ -57,7 +57,7 @@ function Header() {
                   </NavLink>
                   </li>
                   <li className="nav-item">
-                  <NavLink className="nav-link custom-nav-link " to="/LegalNotices" style={({ isActive }) => ({
+                  <NavLink className="nav-link  nav-link-header" to="/LegalNotices" style={({ isActive }) => ({
                       color: isActive ? "#ffffff" : "white",  
                       fontWeight: isActive ? "bold" : "normal",
                       textDecoration: isActive ? "underline" : "none",
