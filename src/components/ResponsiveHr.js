@@ -1,11 +1,11 @@
 import { useState, useEffect } from "react";
 
 const ResponsiveHr = ({ smallWidth = "25%", largeWidth = "70%", className = "responsive-hr" }) => {      /* Définition des props et de l'état */
-    const [hrWidth, setHrWidth] = useState(window.innerWidth < 576 ? smallWidth : largeWidth);  /* Si l'écran fait moins de 576px on applique smallWidth, sinon largeWidth */
+    const [hrWidth, setHrWidth] = useState(window.innerWidth < 768 ? smallWidth : largeWidth);  /* Si l'écran fait moins de 576px on applique smallWidth, sinon largeWidth */
 
     useEffect(() => { /* On utilise useEffect pour gérer le redimmensionnement */
         const updateWidth = () => {
-            setHrWidth(window.innerWidth < 576 ? smallWidth : largeWidth);
+            setHrWidth(window.innerWidth < 768 ? smallWidth : largeWidth);
         };
 
         window.addEventListener("resize", updateWidth);
